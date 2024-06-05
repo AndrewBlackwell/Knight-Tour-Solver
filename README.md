@@ -7,4 +7,5 @@ Caching helps in implementing Warnsdorff's rule by storing the results of comput
 1. Ensure installation of any g++ compiler and C++11 at least.
 2. Clone the repo or download 
 3. Run `compile-mac.sh` to compile the source code into an executable inside ./bin
-4. Run `./bin/knights-tour.bin [x] [y] [width] [height]` where `x` and `y` are starting positions, and `width` and `height` represent the size of the board. If a solution is found, it will be logged inside of the directory under `Tour Solution <width>x<height>.txt`.
+4. Run `./bin/knights-tour.bin [x] [y] [width] [height]` where `x` and `y` are starting positions, and `width` and `height` represent the size of the board.
+5. If a solution is found, it will be logged inside of the directory under `Tour Solution <width>x<height>.txt`.
